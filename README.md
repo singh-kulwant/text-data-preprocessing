@@ -32,3 +32,12 @@ File contents and description:
   
   # tdp_tokenize.py - will tokenize our sample text into a list of words, using NLTKs word_tokenize() method
   
+  # Normalization - series of related tasks meant to put all text on a level of playing field
+  i.e. converting all text to same case, removing punctuations, converting numbers to word equivalent, 
+  
+  # we will perform it in 3 steps: 1. Stemming 2. lemmatization 3. rest tasks
+  after tokenization, we are no longer working at text level, but now at word level
+  
+  # tdp_normalize.py - normalizes sample data
+  
+  # tdp_stem_lemmatize.py - gives two lists - one stemmed tokes another lemmatized tokens wrt verbs
